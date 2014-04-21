@@ -12,3 +12,12 @@ gitlab_uwsgi_port: 4001
 gitlab_ssh_port: 22
 
 gitlab_hostname: ""
+
+gitlab_ldap_enabled: "false"
+gitlab_ldap_hostname: example.com
+gitlab_ldap_userbase: ""
+gitlab_ldap_port: 636
+gitlab_ldap_uid: ""
+gitlab_ldap_ssl: True
+gitlab_ldap_binddn: ""
+gitlab_ldap_bindpw: ""
